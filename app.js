@@ -13,4 +13,4 @@ function run() {
     });
 }
 
-setInterval(run, 60000);
+setInterval(run, 120000);
