@@ -1,7 +1,7 @@
 {
     "name": "dfadfdfa",
     "description": "A barebones Node.js app using Express",
-    "repository": "https://github.com/heroku/node-js-getting-started",
+    "repository": "https://github.com/kompleksanda/Pax",
     "logo": "https://node-js-sample.herokuapp.com/node.png",
     "keywords": ["node", "express", "static"]
   }
