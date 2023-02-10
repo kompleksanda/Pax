@@ -40,8 +40,12 @@ class PaxfulApiFacade {
         return this.client.invoke("/paxful/v1/user/touch");
     }
 
-    me() {
+    async me() {
         return this.client.invoke("/paxful/v1/user/me");
+    }
+
+    async run() {
+        return this.client.invoke("/paxful/v1/user/blocked-list");
     }
 }
 

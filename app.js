@@ -4,12 +4,11 @@ dotenv.config();
 
 const paxfulApi = createPaxfulApi(process.env.PAXFUL_CLIENT_ID, process.env.PAXFUL_API_SECRET);
 
-console.log(process.env.PAXFUL_CLIENT_ID);
-process.env.PAXFUL_API_SECRET
+console.log("Starting...");
 
 function run() {
-    paxfulApi.touch().then((result) => {
-        console.log(result);
+    paxfulApi.run().then((result) => {
+        console.log("updated");
     });
 }
 
